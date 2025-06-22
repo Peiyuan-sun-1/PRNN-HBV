@@ -429,10 +429,10 @@ def train_model(model, train_x, train_y, ep_number, lrate, save_path):
 # ==================================================
 if __name__ == "__main__":
     # --- Configuration ---
-    basin_list_file = 'basin_list1.txt'
-    streamflow_folder = '569selected_basins_streamflow_csv'
-    forcing_folder = '569流域selected_basins_forcing_csv'
-    attributes_file = '569流域属性.csv'
+    basin_list_file = 'basin_list.txt'
+    streamflow_folder = 'selected_basins_streamflow_csv'
+    forcing_folder = 'selected_basins_forcing_csv'
+    attributes_file = 'basin attributes.csv'
     results_folder = 'PRNN-A_Results_with_Analysis'
     os.makedirs(results_folder, exist_ok=True)
 
