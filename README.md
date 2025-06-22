@@ -46,15 +46,15 @@ To run the scripts, your project directory should be organized as follows. The f
 +-- PIMLHBV_Static.py
 +-- PIMLHBV_Attention.py
 |
-+-- basin_list1.txt
-+-- 569流域属性.csv
++-- basin_list.txt
++-- basin attributes.csv
 |
-+-- 569selected_basins_streamflow_csv/
++-- selected_basins_streamflow_csv/
 |   +-- 01013500_streamflow_qc.csv
 |   +-- 01022500_streamflow_qc.csv
 |   +-- ...
 |
-+-- 569流域selected_basins_forcing_csv/
++-- selected_basins_forcing_csv/
     +-- 01013500_lump_cida_forcing_leap.csv
     +-- 01022500_lump_cida_forcing_leap.csv
     +-- ...
