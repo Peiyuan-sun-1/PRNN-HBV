@@ -67,7 +67,7 @@ Data Format Specifications:
 
 * Streamflow Data CSVs: Each file should contain daily observed streamflow. Essential columns are 'date' and 'streamflow'. Missing values should be coded as -999.
 
-* Attributes CSV ('569流域属性.csv'): A single file containing static attributes for all basins. It must contain 'gauge_id' and 'area_gages2' (watershed area in km²) columns to link basins and perform unit conversions.
+* Attributes CSV ('basin attributes.csv'): A single file containing static attributes for all basins. It must contain 'gauge_id' and 'area_gages2' (watershed area in km²) columns to link basins and perform unit conversions.
 
 
 4. How to Run the Models
